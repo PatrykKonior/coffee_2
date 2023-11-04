@@ -14,7 +14,7 @@ window.app = {};
 app.store = Store;
 app.router = Router;
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("DOMContentLoaded", async () => {
   loadData();
   app.router.init();
 });
